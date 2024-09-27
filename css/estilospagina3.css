@@ -1,0 +1,107 @@
+.divPrincipal {
+    background-color: #283048;
+    display: flex;
+}
+
+.divIzq {
+    color: white;
+    margin-left: 10%;
+    width: 50%;
+}
+
+.divDer {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.divSegundo {
+    display: flex;
+    align-items: end;
+    background: url(../recursos/imagenes/imagen1_pagina3.webp) top / cover;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+.divTercero {
+    background-color: #efefee;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.divIzquierda {
+    background-color: #4890c1;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCenter {
+    width: 15%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.divDerecha {
+    width: 25%;
+}
+
+.divCuarto {
+    background-color: #efefee;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.divLeft {
+    display: flex;
+    gap: 60px;
+    width: 45%;
+}
+
+.divRight {
+    background-color: #4890c1;
+    color: white;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divEnd {
+    background-color: #efefee;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.divIquie {
+    background-color: #e88617;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.divCentrado  > img {
+   border-radius: 0; 
+   margin-left: 110px;
+   margin-right: 110px;
+   height: 100%;
+}
+
+.divDere {
+    background-color: #e88617;
+    width: 25%;
+    color: white;
+}
